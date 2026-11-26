@@ -1,0 +1,22 @@
+# Printer not printing
+
+## Symptom
+The user clicks Print but nothing comes out. The job stays in the queue, or the printer shows as "Offline".
+
+## Possible causes
+- A stuck job in the print queue
+- The Print Spooler service (the program that manages print jobs) has stopped
+- The printer is off, or its cable or Wi-Fi connection is lost
+- The wrong printer is selected
+
+## Resolution
+1. Check that the printer is on, has paper and ink, and is connected.
+2. Open Settings > Bluetooth & devices > Printers & scanners. Select the printer, click "Open print queue", and cancel any stuck jobs.
+3. Press Windows key + R, type `services.msc` and press Enter. Find "Print Spooler", right-click it and select "Restart".
+4. Print a test page from the printer's properties.
+
+## Verification
+The test page prints and the user can print their own document.
+
+## Escalation
+If the Print Spooler keeps stopping, or several users have the same problem on the same printer, escalate to the next support level.
