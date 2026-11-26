@@ -1,13 +1,27 @@
 # No sound
 
-## Symptom
-No sound comes from videos, music or meetings.
+| | |
+| --- | --- |
+| **Article ID** | KB0006 |
+| **Category** | Hardware |
+| **Applies to** | Windows 11 |
+| **Audience** | End user / Helpdesk |
+| **Difficulty** | Easy |
+| **Time needed** | 10 minutes |
+| **Tested** | tested |
+| **Last updated** | 2026-11-26 |
+| **Tags** | sound, audio, speakers, headphones, driver |
 
-## Possible causes
-- Sound is muted or the volume is very low
-- Sound is sent to the wrong device (headphones, another speaker)
-- A loose cable
-- An audio driver problem
+## Summary
+This article helps when no sound comes from videos, music or meetings.
+
+## Symptoms
+- No sound from the speakers
+- The speaker icon in the taskbar has a cross
+- Sound works in one program but not in another
+
+## Cause
+Common causes are sound being muted, sound being sent to the wrong device (headphones or another speaker), a loose cable, or an audio driver problem.
 
 ## Resolution
 1. Look at the speaker icon at the bottom right. If it has a cross, unmute and raise the volume.
@@ -19,5 +33,11 @@ No sound comes from videos, music or meetings.
 ## Verification
 Sound plays when a video or music is opened.
 
+## Prevention
+Check the output device after plugging in or removing headphones.
+
 ## Escalation
-If the audio device does not appear in Device Manager at all, it may be a hardware failure. Escalate to the next support level.
+Escalate if the audio device does not appear in Device Manager at all, which may mean a hardware failure. Include a screenshot of Device Manager and the steps you tried.
+
+## Related articles
+- [USB device not recognized](usb-not-recognized.md)
