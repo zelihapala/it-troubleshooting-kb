@@ -44,3 +44,12 @@ Escalate if disk usage stays at 100% after these steps, or if `sfc /scannow` rep
 - [High CPU usage](high-cpu-usage.md)
 - [Disk full](disk-full.md)
 - [Windows Update stuck](windows-update-stuck.md)
+
+## Practical Testing Evidence
+
+The following screenshots document practical troubleshooting on Windows 11.
+
+- [Task Manager – Resource Usage](images/KB0001-task-manager.png)
+- [CPU Performance](images/KB0001-cpu-performance.png)
+- [Running Processes – CPU Usage](images/KB0001-cpu-processes.png)
+- [Startup Applications](images/KB0001-startup-apps.png)
