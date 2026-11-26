@@ -1,12 +1,26 @@
 # Black screen
 
-## Symptom
-The computer fan runs and the lights are on, but nothing shows on the screen.
+| | |
+| --- | --- |
+| **Article ID** | KB0009 |
+| **Category** | Hardware |
+| **Applies to** | Windows 11 |
+| **Audience** | End user / Helpdesk |
+| **Difficulty** | Easy |
+| **Time needed** | 15 minutes |
+| **Tested** | tested |
+| **Last updated** | 2026-11-26 |
+| **Tags** | black screen, monitor, display, no signal |
 
-## Possible causes
-- The monitor cable is loose
-- The monitor is off or the wrong input is selected
-- A graphics card or monitor failure
+## Summary
+This article helps when the computer is on but the screen stays black.
+
+## Symptoms
+- The fan runs and the lights are on, but nothing shows on the screen
+- The monitor light is orange or shows "No signal"
+
+## Cause
+Common causes are a loose monitor cable, the monitor being off or set to the wrong input, or a graphics card or monitor failure.
 
 ## Resolution
 1. Look at the monitor power light. If it is off, check the power cable.
@@ -19,5 +33,11 @@ The computer fan runs and the lights are on, but nothing shows on the screen.
 ## Verification
 Windows appears on the screen.
 
+## Prevention
+Make sure cables are plugged in firmly and are not pulled when the desk is moved.
+
 ## Escalation
-If there is no picture even with another cable and monitor, it may be a graphics card or motherboard failure. Escalate to the next support level.
+Escalate if there is no picture even with another cable and monitor, which may mean a graphics card or motherboard failure. Include what you tried and what the monitor light shows.
+
+## Related articles
+- [Windows will not start](windows-wont-start.md)
