@@ -1,12 +1,26 @@
 # Word not responding
 
-## Symptom
-Clicking in Word does nothing, and the window title shows "Not Responding".
+| | |
+| --- | --- |
+| **Article ID** | KB0007 |
+| **Category** | Software |
+| **Applies to** | Microsoft Word on Windows 11 |
+| **Audience** | End user / Helpdesk |
+| **Difficulty** | Easy |
+| **Time needed** | 15 minutes |
+| **Tested** | tested |
+| **Last updated** | 2026-11-26 |
+| **Tags** | word, office, freeze, autorecover, safe mode |
 
-## Possible causes
-- The document is very large and the program cannot recover
-- An add-in (a small program added to Word) is causing the problem
-- The computer is running out of memory
+## Summary
+This article helps when Word freezes, and explains how to recover the document.
+
+## Symptoms
+- Clicking in Word does nothing
+- The window title shows "Not Responding"
+
+## Cause
+Common causes are a very large document, an add-in (a small program added to Word) causing problems, or the computer running out of memory.
 
 ## Resolution
 1. Tell the user to stay calm. The work may not be lost.
@@ -17,7 +31,14 @@ Clicking in Word does nothing, and the window title shows "Not Responding".
 6. In File > Options > Save, set the AutoRecover interval to 5 minutes.
 
 ## Verification
-The document was recovered and Word works normally.
+The document is recovered and Word works normally.
+
+## Prevention
+Save often with Ctrl + S and keep AutoRecover on. Remove add-ins the user does not need.
 
 ## Escalation
-If the problem happens with every document and every time, the Office installation may need a repair. Escalate to the next support level.
+Escalate if the problem happens with every document every time, because the Office installation may need a repair. Include the Word version, whether Safe Mode works and the steps you tried.
+
+## Related articles
+- [Slow computer](slow-computer.md)
+- [High CPU usage](high-cpu-usage.md)
