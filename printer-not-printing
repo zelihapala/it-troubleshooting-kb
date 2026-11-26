@@ -1,22 +1,43 @@
 # Printer not printing
 
-## Symptom
-The user clicks Print but nothing comes out. The job stays in the queue, or the printer shows as "Offline".
+| | |
+| --- | --- |
+| **Article ID** | KB0002 |
+| **Category** | Hardware |
+| **Applies to** | Windows 11 |
+| **Audience** | End user / Helpdesk |
+| **Difficulty** | Easy |
+| **Time needed** | 15 minutes |
+| **Tested** | tested |
+| **Last updated** | 2026-11-26 |
+| **Tags** | printer, print queue, print spooler, offline |
 
-## Possible causes
-- A stuck job in the print queue
-- The Print Spooler service (the program that manages print jobs) has stopped
-- The printer is off, or its cable or Wi-Fi connection is lost
-- The wrong printer is selected
+## Summary
+This article helps when a document is sent to the printer but nothing prints, or the printer shows as offline.
+
+## Symptoms
+- The user clicks Print but nothing comes out
+- A job stays in the print queue
+- The printer shows "Offline"
+
+## Cause
+Common causes are a stuck job in the print queue, the Print Spooler service (the program that manages print jobs) having stopped, a lost cable or Wi-Fi connection, or the wrong printer being selected.
 
 ## Resolution
-1. Check that the printer is on, has paper and ink, and is connected.
-2. Open Settings > Bluetooth & devices > Printers & scanners. Select the printer, click "Open print queue", and cancel any stuck jobs.
+1. Check that the printer is on, has paper and ink, and is connected by cable or Wi-Fi.
+2. Open Settings > Bluetooth & devices > Printers & scanners. Select the printer, click "Open print queue" and cancel any stuck jobs.
 3. Press Windows key + R, type `services.msc` and press Enter. Find "Print Spooler", right-click it and select "Restart".
-4. Print a test page from the printer's properties.
+4. Make sure the correct printer is set as default in Printers & scanners.
+5. Print a test page from the printer's properties.
 
 ## Verification
 The test page prints and the user can print their own document.
 
+## Prevention
+Do not click Print repeatedly when a large document is slow to start. Keep the printer driver updated.
+
 ## Escalation
-If the Print Spooler keeps stopping, or several users have the same problem on the same printer, escalate to the next support level.
+Escalate if the Print Spooler keeps stopping, or if several users have the same problem on the same printer. Include the printer name, the error message and the steps you tried.
+
+## Related articles
+- [USB device not recognized](usb-not-recognized.md)
