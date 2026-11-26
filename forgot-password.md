@@ -1,12 +1,26 @@
 # Forgotten password
 
-## Symptom
-The user cannot sign in to their computer or account because they do not remember their password.
+| | |
+| --- | --- |
+| **Article ID** | KB0003 |
+| **Category** | Security |
+| **Applies to** | Windows 11, company accounts |
+| **Audience** | Helpdesk |
+| **Difficulty** | Easy |
+| **Time needed** | 10 minutes |
+| **Tested** | tested |
+| **Last updated** | 2026-11-26 |
+| **Tags** | password, reset, identity verification, account |
 
-## Possible causes
-- The password was forgotten
-- The password was changed recently and the user does not remember the new one
-- Caps Lock is on or the keyboard language is wrong
+## Summary
+This article explains how to reset a forgotten password safely, including how to verify the user's identity first.
+
+## Symptoms
+- The user cannot sign in because they do not remember their password
+- The user gets an "incorrect password" message
+
+## Cause
+The password was forgotten or recently changed. Sometimes Caps Lock is on or the keyboard language is wrong.
 
 ## Resolution
 1. Ask the user to check that Caps Lock is off and the keyboard language is correct.
@@ -17,7 +31,14 @@ The user cannot sign in to their computer or account because they do not remembe
 6. For a personal Microsoft account on a Windows 11 PC, use the "I forgot my password" link on the sign-in screen.
 
 ## Verification
-The user signed in with the temporary password and set a new one.
+The user signs in with the temporary password and sets a new one.
+
+## Prevention
+Suggest a password manager and make sure multi-factor authentication (MFA) is turned on.
 
 ## Escalation
-If identity cannot be verified, do not reset the password. Pass the case to the manager or the security team.
+If identity cannot be verified, do not reset the password. Pass the case to the user's manager or the security team. Include the name of the person who asked and why verification failed.
+
+## Related articles
+- [How to recognize a phishing email](recognize-phishing.md)
+- [Clicked a phishing link](phishing-clicked.md)
